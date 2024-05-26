@@ -1,0 +1,77 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.newstitle{
+    width : 500px;
+    height : 90px;
+    font-size: 50pt;
+    color: orange;
+    display: inline-block;
+}
+
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : black;
+}
+.hr {
+    background-color : limegreen;
+    height : 5px;
+    width : 1350px;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+.image {
+    max-height: 350px;
+    width: auto;
+}
+
+.paragraph {
+    max-height: 400px; 
+    overflow-y: auto; 
+}
+
+.right-image {
+    float: right; 
+    margin-right: 10px; 
+}
+
+.button{
+    background-color:#fdfd7f;
+    border-radius: auto;
+    width : 100px;
+    height : 30px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.text{
+    color : brown;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+}
+
+.author{
+    text-align: right;
+}
+
+.table {
+    padding : 10px;
+}
+.iniberitake3{
+    display: flex;
+}

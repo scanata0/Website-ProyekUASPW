@@ -1,0 +1,15 @@
+*{
+    background-image : url("catbg2.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    width : 100%;
+    height : 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+.text {
+    padding-top: 350px;
+    padding-left: 500px;
+    padding-right: auto;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color:#FDFD96;
+
+}
+.inigambar{
+    margin-bottom : 10px;
+    display: block;
+    margin: auto;
+}
+.loadingcontainer {
+    width: 50%;
+    height: 30px;
+    background-color: #ccc;
+    display: block;
+    margin : auto;
+    margin-top : 10px;
+    visibility: visible;
+}
+
+.garisloading {
+    width: 0;
+    height: 100%;
+    background-color: limegreen;
+    margin-bottom : 10px;
+    top: 0;
+    left: 0;
+    margin-top : 10px;
+    visibility: visible;
+}
