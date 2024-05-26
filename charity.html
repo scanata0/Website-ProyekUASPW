@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity</title>
+    <link rel = "stylesheet" href = "style4.css">
+</head>
+<body>
+    <form id="donasi" method="GET" action="konfirmasi.html">
+        <div class = "container">
+            <fieldset>
+                <img src = "catsuf.jpg" width = "300px" height = "180px" style = "margin: auto; display: block; margin-top : 10px;">
+                <h1 style = "text-align: center;">Would you help us ?</h1>
+                <table>
+                    
+                    <tr>
+                        <td><p><b>Username :</b></p></td>
+                        <td><input type="text" placeholder="Enter your username" required name = "username" pattern = "[A-Za-z\s]+" id = "username"></td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Email :</b></p></td>
+                        <td><input type="text" placeholder="Enter your email" pattern="[A-Za-z]\w{2,}@gmail.com" name = "email" required></td>
+                    </tr>
+                    <tr>
+                        <td><b><p>Choose payment method :</p></b></td>
+                        <td>
+                            <select name="Choose your payment method">
+                            <option value="QRIS">QRIS</option>
+                            <option value="DANA">DANA</option>
+                            <option value="GOPAY">GOPAY</option>
+                            <option value="OVO">OVO</option>
+                            <option value="SHOPEEPAY">SHOPEEPAY</option></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Amount :</b></p></td>
+                        <td><input type="number" placeholder="Enter your donation amount" min = "5000" required name = "amount"></td>
+                    </tr>
+                    <tr><td><button>Submit</button><button class = "button"><a href = "index.html" class = "text" style = "text-decoration: none; color: black;">Back</a></button></td></tr>
+                </table>
+            </fieldset>
+        </div>
+    </form> 
+    <br><br>
+    <!-- <button class = "button"><a href = "nyoba.html" class = "text">Back</a></button> -->
+</body>
+</html>
